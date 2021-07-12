@@ -1,0 +1,29 @@
+{
+  "name": "spacex_launch_stats",
+  "version": "1.0.0",
+  "description": "App that lists SpaceX launch missions",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kemaldemirgil/SpaceX_launch_stats.git"
+  },
+  "author": "Kemal Demirgil",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kemaldemirgil/SpaceX_launch_stats/issues"
+  },
+  "homepage": "https://github.com/kemaldemirgil/SpaceX_launch_stats#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
