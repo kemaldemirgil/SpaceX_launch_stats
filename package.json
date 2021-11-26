@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/kemaldemirgil/SpaceX_launch_stats#readme",
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^0.22.0",
     "concurrently": "^6.2.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
